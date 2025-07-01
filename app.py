@@ -7,7 +7,10 @@ import os
 
 st.set_page_config(page_title="GSEB 10th Result Extractor", layout="wide")
 
-st.title("📄 Gujarat Board 10th Result Extractor & Ranker")
+# st.title("📄 Gujarat Board 10th Result Extractor & Ranker")
+
+st.title("Extractor & Ranker")
+
 
 uploaded_files = st.file_uploader("Upload GSEB PDF Result Files", type="pdf", accept_multiple_files=True)
 

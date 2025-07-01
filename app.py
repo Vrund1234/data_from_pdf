@@ -4,6 +4,8 @@ import pdfplumber
 import re
 import tempfile
 import os
+import streamlit as st
+st.set_option("server.maxUploadSize", 1024)  # size in MB (e.g., 1024 MB = 1 GB)
 
 st.set_page_config(page_title="GSEB 10th Result Extractor", layout="wide")
 
